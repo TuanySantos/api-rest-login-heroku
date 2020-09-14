@@ -4,7 +4,7 @@
 
   /auth/signUp - Cadastro </br> <em>Faça seu cadastro<em/> utilizando o aplicativo da sua preferência para consumir API, abaixo está como deve ser o json e a URL de requisição do método post. </br>
   
-  <strong>Endpoint signUp heroku:</strong> <em> https://api-rest-login-heroku.herokuapp.com/auth/signUp </em> </br>
+  <strong>Endpoint signUp heroku:</strong> <em> api-rest-login-heroku.herokuapp.com/auth/signUp</em> </br>
 
     { </br>
     "name": "nome", </br>
@@ -23,7 +23,7 @@
 
   /auth/sigIn - Autenticação </br> <em>Faça seu login </em> utilizando o aplicativo da sua preferência para consumir API, abaixo está como deve ser o json e a URL de requisição do método post. </br>
   
-  <strong>Endpoint signIn heroku:</strong> <em> https://api-rest-login-heroku.herokuapp.com/auth/signIn </em>
+  <strong>Endpoint signIn heroku:</strong> <em> api-rest-login-heroku.herokuapp.com/auth/signIn </em>
   
     { </br>
     "email":"email cadastrado", </br>
@@ -34,7 +34,7 @@
   
   /userSearch - Mantem uma sessão valida durante 30 minutos após o último login</br> Este endpoint é acessado inserindo o token que foi gerado no momento do seu cadastro, basta copiar o token, inserir no Header e a URL de requisição do método GET para obter seu cadastro. </br>
   
-  <strong>Endpoint userSearch heroku:</strong> <em> https://api-rest-login-heroku.herokuapp.com/auth/userSearch </em></br>
+  <strong>Endpoint userSearch heroku:</strong> <em> api-rest-login-heroku.herokuapp.com/userSearch</em></br>
   
   <strong>Exemplo:</strong> </br>
   
